@@ -10,4 +10,13 @@ gem 'listen'
 gem 'rb-inotify', :require => false
 gem 'rb-fsevent', :require => false
 gem 'guard-unicorn' 
+gem 'pony'
+gem 'data_mapper'
+gem 'dm-sqlite-adapter'
+
+end 
+
+group :test do
+gem 'rack-test'
+gem 'rspec'
 end 
